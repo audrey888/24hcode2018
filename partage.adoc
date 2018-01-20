@@ -10,3 +10,8 @@ curl -d "email=ant1@violet.ant&password=prune" -X POST https://f24h2018.herokuap
 
 curl -d "email=cicada@violet.ant&password=prune" -X POST https://f24h2018.herokuapp.com/auth/local
 
+= Requete permettant de recuperer toutes les routes tertiaires dans un rectangle donné
+[out:json];
+way(47.984393,0.236012,47.984946,0.238951)[highway=tertiary];
+(._;>;);
+out;
